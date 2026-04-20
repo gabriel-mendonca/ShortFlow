@@ -435,13 +435,3 @@ Alguns projetos fazem o modelo de domínio implementar `Decodable` diretamente. 
 ### `URLRepositorySpy` em vez de Mock para testes de Use Case
 
 Nos testes do `CreateAliasUseCase`, o repositório é um Spy (não um Mock). Isso porque o Use Case não precisa que o repositório seja chamado de uma forma específica — precisa apenas do resultado. Um Mock com expectativas de chamada tornaria o teste frágil a refatorações internas do Use Case.
-
----
-
-## Licença
-
-Projeto de challenge técnico. Todos os direitos reservados.
-
----
-
-*Documentação gerada com base na análise estática do projeto `ShortFlow.xcodeproj` (Xcode 26.1.1, Swift 5.0, iOS 26.1+).*
